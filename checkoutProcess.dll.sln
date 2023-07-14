@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checkoutProcess.dll", "checkoutProcess.dll\checkoutProcess.dll.csproj", "{7E3516A1-9ECD-43B0-84DB-83A9804206D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checkoutApp", "checkoutApp\checkoutApp.csproj", "{ECD05593-E350-41AB-9A6A-667B897CB8A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E3516A1-9ECD-43B0-84DB-83A9804206D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E3516A1-9ECD-43B0-84DB-83A9804206D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E3516A1-9ECD-43B0-84DB-83A9804206D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E3516A1-9ECD-43B0-84DB-83A9804206D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD05593-E350-41AB-9A6A-667B897CB8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD05593-E350-41AB-9A6A-667B897CB8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD05593-E350-41AB-9A6A-667B897CB8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD05593-E350-41AB-9A6A-667B897CB8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F563661-9BEC-4A32-B03A-0B643443498A}
+	EndGlobalSection
+EndGlobal

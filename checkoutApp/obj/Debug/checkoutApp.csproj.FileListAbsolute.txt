@@ -11,3 +11,16 @@ C:\Users\ispan\Desktop\checkoutProcess.dll\checkoutApp\bin\Debug\Newtonsoft.Json
 C:\Users\ispan\Desktop\checkoutProcess.dll\checkoutApp\obj\Debug\checkoutApp.csproj.CopyComplete
 C:\Users\ispan\Desktop\checkoutProcess.dll\checkoutApp\obj\Debug\checkoutApp.exe
 C:\Users\ispan\Desktop\checkoutProcess.dll\checkoutApp\obj\Debug\checkoutApp.pdb
+C:\Users\jjboy\Desktop\checkout\checkoutApp\obj\Debug\checkoutApp.csproj.AssemblyReference.cache
+C:\Users\jjboy\Desktop\checkout\checkoutApp\obj\Debug\checkoutApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\jjboy\Desktop\checkout\checkoutApp\obj\Debug\checkoutApp.csproj.CoreCompileInputs.cache
+C:\Users\jjboy\Desktop\checkout\checkoutApp\obj\Debug\checkoutApp.exe
+C:\Users\jjboy\Desktop\checkout\checkoutApp\obj\Debug\checkoutApp.pdb
+C:\Users\jjboy\Desktop\checkout\checkoutApp\bin\Debug\checkoutApp.exe.config
+C:\Users\jjboy\Desktop\checkout\checkoutApp\bin\Debug\checkoutApp.exe
+C:\Users\jjboy\Desktop\checkout\checkoutApp\bin\Debug\checkoutApp.pdb
+C:\Users\jjboy\Desktop\checkout\checkoutApp\bin\Debug\checkoutProcess.dll.dll
+C:\Users\jjboy\Desktop\checkout\checkoutApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jjboy\Desktop\checkout\checkoutApp\bin\Debug\checkoutProcess.dll.pdb
+C:\Users\jjboy\Desktop\checkout\checkoutApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jjboy\Desktop\checkout\checkoutApp\obj\Debug\checkoutApp.csproj.CopyComplete

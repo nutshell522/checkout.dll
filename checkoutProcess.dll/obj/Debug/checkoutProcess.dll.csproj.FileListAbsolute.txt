@@ -4,3 +4,9 @@ C:\Users\ispan\Desktop\checkoutProcess.dll\checkoutProcess.dll\bin\Debug\checkou
 C:\Users\ispan\Desktop\checkoutProcess.dll\checkoutProcess.dll\bin\Debug\checkoutProcess.dll.pdb
 C:\Users\ispan\Desktop\checkoutProcess.dll\checkoutProcess.dll\obj\Debug\checkoutProcess.dll.dll
 C:\Users\ispan\Desktop\checkoutProcess.dll\checkoutProcess.dll\obj\Debug\checkoutProcess.dll.pdb
+C:\Users\jjboy\Desktop\checkout\checkoutProcess.dll\obj\Debug\checkoutProcess.dll.csproj.AssemblyReference.cache
+C:\Users\jjboy\Desktop\checkout\checkoutProcess.dll\obj\Debug\checkoutProcess.dll.csproj.CoreCompileInputs.cache
+C:\Users\jjboy\Desktop\checkout\checkoutProcess.dll\obj\Debug\checkoutProcess.dll.dll
+C:\Users\jjboy\Desktop\checkout\checkoutProcess.dll\obj\Debug\checkoutProcess.dll.pdb
+C:\Users\jjboy\Desktop\checkout\checkoutProcess.dll\bin\Debug\checkoutProcess.dll.dll
+C:\Users\jjboy\Desktop\checkout\checkoutProcess.dll\bin\Debug\checkoutProcess.dll.pdb

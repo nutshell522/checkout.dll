@@ -7,14 +7,20 @@ using System.Threading.Tasks;
 namespace checkoutProcess.dll
 {
     public class Product
-    {   
-        // 此處id是product group Id 對應商品、規格、尺寸 而非prductID
+    {
         public int Id;
+        public string SKU;
         public string Name;
         public decimal Price;
-        public string Color;
-        public string Size;
         public HashSet<string> Tags;
 
+        public string TagsValue
+        {
+            get
+            {
+                if (this.Tags == null || this.Tags.Count == 0) return "";
+                return string.Join(",", this.Tags.Select(t => '#' + t));
+            }
+        }
     }
 }

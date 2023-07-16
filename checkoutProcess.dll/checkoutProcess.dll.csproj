@@ -41,7 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuyMoreBoxesDiscountRule.cs" />
+    <Compile Include="CartContext.cs" />
+    <Compile Include="Discount.cs" />
     <Compile Include="DiscountRuleBase.cs" />
+    <Compile Include="POS.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

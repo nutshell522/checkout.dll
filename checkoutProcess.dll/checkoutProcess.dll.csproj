@@ -44,6 +44,11 @@
     <Compile Include="BuyMoreBoxesDiscountRule.cs" />
     <Compile Include="CartContext.cs" />
     <Compile Include="Discount.cs" />
+    <Compile Include="DiscountRule1.cs" />
+    <Compile Include="DiscountRule3.cs" />
+    <Compile Include="DiscountRule4.cs" />
+    <Compile Include="DiscountRule6.cs" />
+    <Compile Include="DiscountRule7.cs" />
     <Compile Include="DiscountRuleBase.cs" />
     <Compile Include="POS.cs" />
     <Compile Include="Product.cs" />

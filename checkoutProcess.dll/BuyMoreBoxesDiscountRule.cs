@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace checkoutProcess.dll
 {
-	public class BuyMoreBoxesDiscountRule : RuleBase
+	public class BuyMoreBoxesDiscountRule : DiscountRuleBase
 	{
 		public readonly int BoxCount = 0;
 		public readonly int PercentOff = 0;
@@ -20,11 +20,11 @@ namespace checkoutProcess.dll
 			this.Note = "熱銷飲品 限時優惠";
 		}
 
-		public override IEnumerable<Discount> Process(CartContext[] products)
+		public override IEnumerable<Discount> Process(CartContext products)
 		{
 			List<Product> matched_products = new List<Product>();
 
-			foreach (var p in products)
+			foreach (var p in products.PurchasedItems)
 			{
 				matched_products.Add(p);
 
@@ -33,9 +33,9 @@ namespace checkoutProcess.dll
 					// 符合折扣
 					yield return new Discount()
 					{
-						Amount = matched_products.Select(p => p.Price).Sum() * this.PercentOff / 100,
+						Amount = matched_products.Select(x => x.Price).Sum() * this.PercentOff / 100,
 						Products = matched_products.ToArray(),
-						RuleName = this.Name,
+                        Rule = this,
 					};
 					matched_products.Clear();
 				}

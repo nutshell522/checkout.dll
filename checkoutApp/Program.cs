@@ -58,12 +58,13 @@ namespace checkoutApp
             }
         }
 
-        static IEnumerable<DiscountRuleBase> LoadRules()
-        {
-            yield return new BuyMoreBoxesDiscountRule(2, 12);   // 買 2 箱，折扣 12%
-            yield break;
-        }
-    }
+		static IEnumerable<DiscountRuleBase> LoadRules()
+		{
+			yield return new BuyMoreBoxesDiscountRule(2, 12);   // 買 2 箱，折扣 12%
+			yield return new TotalPriceDiscountRule(1000, 100); // 滿 1000 折 100
+			yield break;
+		}
+	}
 
     
 

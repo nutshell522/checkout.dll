@@ -13,5 +13,7 @@ namespace checkoutProcess.dll
         public string Name;
         public string Note;
         public abstract IEnumerable<Discount> Process(CartContext cart);
-    }
+
+		public string ExclusiveTag = null;
+	}
 }

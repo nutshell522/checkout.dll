@@ -60,7 +60,7 @@ namespace checkoutApp
 
         static IEnumerable<DiscountRuleBase> LoadRules()
         {
-            yield return new DiscountRule1("衛生紙", 6, 100);
+            yield return new DiscountRule1("衛生紙", 6, 100s);
             yield return new DiscountRule3("雞湯塊", 50);
             yield return new DiscountRule4("同商品加購優惠", 10);
             yield return new DiscountRule6("熱銷飲品", 12);
